@@ -9,7 +9,7 @@ Public Class Form1
             Number = NumericUpDown1.Value
 
             Using writer As New StreamWriter(filePath, True) 'True to append
-                writer.WriteLine(Number)
+                writer.WriteLine(Number) '
 
             End Using
 
